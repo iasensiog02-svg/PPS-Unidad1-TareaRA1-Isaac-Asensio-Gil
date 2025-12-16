@@ -174,16 +174,16 @@ class Lavadero:
     # Esta función es útil para pruebas unitarias, no es parte del lavadero real
     # nos crea un array con las fases visitadas en un ciclo completo
 
-def ejecutar_y_obtener_fases(self, prelavado, secado, encerado):
-        """Ejecuta un ciclo completo y devuelve la lista de fases visitadas."""
-        self._hacer_lavado(prelavado, secado, encerado)
-        fases_visitadas = [self.fase]
+    def ejecutar_y_obtener_fases(self, prelavado, secado, encerado):
+            """Ejecuta un ciclo completo y devuelve la lista de fases visitadas."""
+            self.hacerLavado(prelavado, secado, encerado)
+            fases_visitadas = [self.fase]
 
-        while self.ocupado:
-            # Usamos un límite de pasos para evitar bucles infinitos en caso de error
-            if len(fases_visitadas) > 15:
-                raise Exception("Bucle infinito detectado en la simulación de fases.")
-            self.avanzarFase()
-            fases_visitadas.append(self.fase)
+            while self.ocupado:
+                # Usamos un límite de pasos para evitar bucles infinitos en caso de error
+                if len(fases_visitadas) > 15:
+                    raise Exception("Bucle infinito detectado en la simulación de fases.")
+                self.avanzarFase()
+                fases_visitadas.append(self.fase)
 
-        return fases_visitadas
+            return fases_visitadas
