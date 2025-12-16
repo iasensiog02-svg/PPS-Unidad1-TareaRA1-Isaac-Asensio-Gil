@@ -15,7 +15,7 @@ sudo apt install firejail firetools
 
 ```
 
-![foto](/Capturas/instalacion.png)
+![foto](Capturas/instalacion.png)
 
 
 ---
@@ -41,7 +41,7 @@ pip install -r requeriments.txt
 pip install -e .
 
 ```
-![foto](/Capturas/requirement.png)
+![foto](Capturas/requirement.png)
 
 ---
 
@@ -51,9 +51,9 @@ La aplicación se ejecutó dentro de un entorno aislado utilizando `Firejail`
 ```bash
 firejail --private=. python3 src/notas/notas.py
 ```
-![foto](/Capturas/ejecutar.png)
+![foto](Capturas/ejecutar.png)
 
---
+---
 
 ## 5.Ejecución de pruebas unitarias
 Para comprobar el correcto funcionamiento de la aplicación, se ejecutaron las pruebas unitarias incluidas en el proyecto
@@ -63,7 +63,7 @@ PYTHONPATH=src python3 -m unittest tests/test_notas_unittest.py -v
 
 ```
 
-![foto](/Capturas/test.png)
+![foto](Capturas/test.png)
 
 ---
 
