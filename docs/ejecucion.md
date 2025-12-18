@@ -27,7 +27,6 @@ Muestro la parte del codigo cambiado :
 
 ![captura](Capturas/bien.png)
 
----
 
 Aqui muestro la **ejecucion** sin errores :
 
