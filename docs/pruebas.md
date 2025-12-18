@@ -1,4 +1,4 @@
-# Ejecución y Depuración – Informe de Fallos
+# Pruebas de Test
 
 Durante el proceso de depuración se detectaron varios errores en el código y en los tests.  
 A continuación se detallan uno por uno, con su explicación y la solución aplicada.
