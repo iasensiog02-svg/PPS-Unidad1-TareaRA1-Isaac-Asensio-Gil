@@ -84,6 +84,6 @@ A continuación se detallan uno por uno, con su explicación y la solución apli
 
 ## Capturas de pantalla
 
-[captura de test](Capturas/testok.png)
+![captura de test](Capturas/testok.png)
 
 ---
